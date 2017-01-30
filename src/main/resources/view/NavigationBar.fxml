@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.TilePane?>
+
+<TilePane fx:id="navigationBar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefColumns="2" prefRows="1" tileAlignment="CENTER_RIGHT" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="50.0">
+         <styleClass>
+            <String fx:value="navigation-button" />
+            <String fx:value="navigation-button-back" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/left.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefWidth="50.0">
+         <styleClass>
+            <String fx:value="navigation-button-forward" />
+            <String fx:value="navigation-button" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/right.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</TilePane>
