@@ -30,5 +30,10 @@ public class StoverFacadeImpl implements StoverFacade {
 		return computer.getDisks();
 	}
 
+	@Override
+	public StoverView getMainView() {
+		return mainView;
+	}
+
 	
 }

@@ -26,7 +26,7 @@ public class LocationsPanelViewTest extends GuiTest{
 	
 	@Test
 	public void testViewContainsLocationDiskPanel(){
-		Node panel = find("#locationDiskPanel");
+		Node panel = find("#diskPanel");
 		assertNotNull(panel);
 	}
 	

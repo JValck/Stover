@@ -5,8 +5,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox fx:id="locationDiskPanel" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+<VBox fx:id="diskPanel" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.setarit.stover.controller.panel.location.DiskController">
    <children>
       <Label text="PC">
          <graphic>
@@ -17,5 +16,6 @@
             </ImageView>
          </graphic>
       </Label>
+      <VBox fx:id="disks" />
    </children>
 </VBox>

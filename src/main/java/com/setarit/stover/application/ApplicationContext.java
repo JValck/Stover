@@ -14,7 +14,7 @@ public class ApplicationContext {
 	}
 
 	public static ApplicationContext getInstance(StoverView stoverView) throws Exception {
-		if(ApplicationContext.instance == null){
+		if(ApplicationContext.instance == null || ApplicationContext.instance.stoverFacade.getMainView() == null){
 			ApplicationContext.instance = new ApplicationContext(stoverView);
 		}
 		return ApplicationContext.instance;

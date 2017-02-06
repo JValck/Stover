@@ -14,7 +14,6 @@ public class BootController {
 
 	public BootController(Stage primaryStage) throws Exception{
 		StoverView stoverView = initializeStoverView(primaryStage);
-		initializeStoverView(primaryStage);
 		context = ApplicationContext.getInstance(stoverView);		
 	}
 

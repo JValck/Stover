@@ -23,5 +23,4 @@ public class DiskPanelViewObjectTest {
 	public void testGetAllDisksReturnsDisks() {
 		assertTrue(diskPanelViewObject.getAllDisks().size() > 0);
 	}
-
 }
