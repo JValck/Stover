@@ -54,6 +54,7 @@ public class FileTest {
 	
 	@Test
 	public void testEqualsReturnsTrueIfSameFileObject(){
-		assertTrue(file.getFiles().get(0).equals(new File("testfile.txt", testFile)));
+		File expected = new File("testfile.txt", testFile);
+		assertTrue(expected.equals(new File("testfile.txt", testFile)));
 	}
 }
