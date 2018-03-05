@@ -1,0 +1,9 @@
+.navigation-button{
+	-fx-color: white;
+	-fx-background-color: transparent;
+	-fx-border-color: #323985;
+	-fx-border-radius: 5px;
+}
+.bluebar{
+	-fx-background-color: #bbbcfb;
+}
